@@ -1,0 +1,49 @@
+
+Name "New Model" ModelCodePage "utf8" AutoAccess False UpdateCycle 1 ModelStamp 1476844644 
+Version "10.2.6105.3" ModelCategoryOrderDefault OrderUsePreference ModelOrderedByDefault False 
+ModelNonRollupHierarchies True 
+
+CognosSource 105 "TM1SourcePC" SourceType Package SourcePath "/content/package[@name='TM1SourcePC']" 
+PackageTimeStamp "/content/package[@name='TM1SourcePC']/model[@name='2016-09-15T04:54:27.252Z']" 
+
+
+CognosPackageDatasourceConnection 109 "PCSource" PackageReportSource 105 
+"TM1SourcePC" CognosPackageConnection "PCSource" CognosPackageConnectionSignon "PCSource" 
+CognosPackageAlwaysUseTransformerSignon False CognosPackagePowercubeSource False 
+
+
+DataSource 107 "<<Query 1>>" Separator "," SourceType CognosSourceQuery 
+CharacterSet Default DecimalSep "." Thousandsep "," Columns True Timing PopYesCreateDefault 
+PackageReportSource 105 "TM1SourcePC" AutoSummary False SuppressNull SuppressNullModel 
+SourceInfo "queryType=flat
+" SetCurrent True ServerSource False Speed False 
+Presummarized False StreamExtractSize 0 
+
+OrgName 111 "[PCSource].[history].[type]" Origin Source Offset 0 Column "type" 
+Storage Text Scale 0 Size 22 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None ColumnInfo "name=type
+valuetype=string
+" 
+
+
+OrgName 113 "[PCSource].[history].[date]" Origin Source Offset 1 Column "date" 
+Storage Text Scale 0 Size 22 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None ColumnInfo "name=date
+valuetype=string
+" 
+
+
+OrgName 115 "[PCSource].[history].[message]" Origin Source Offset 2 Column "message" 
+Storage Text Scale 0 Size 22 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None ColumnInfo "name=message
+valuetype=string
+" 
+
+
+
+
+Signon 103 "BI Server Logon" UserId "Ecarmona" 
+FullDb "" PromptForPassword True EncryptedPW "*1*012458203969354C234A7A4A67762625604C5A466F50296B651858665C8C06A44F3D" 
+"25D1ECAAA0A15E" AutoLogon True SignOnNamespace "CUBEWISE" SignonType "Cognos" 
+
+

@@ -1,0 +1,34 @@
+
+Name "New Model" ModelCodePage "utf8" AutoAccess False UpdateCycle 1 ModelStamp 1476318840 
+Version "10.2.6105.3" ModelCategoryOrderDefault OrderUsePreference ModelOrderedByDefault False 
+ModelNonRollupHierarchies True 
+
+CognosSource 105 "TM1SourcePC" SourceType Package SourcePath "/content/package[@name='TM1SourcePC']" 
+PackageTimeStamp "/content/package[@name='TM1SourcePC']/model[@name='2016-09-15T04:54:27.252Z']" 
+
+
+DataSource 107 "<<Query 1>>" Separator "," SourceType CognosSourceQuery 
+CharacterSet Default DecimalSep "." Thousandsep "," Columns True Timing PopYesCreateDefault 
+PackageReportSource 105 "TM1SourcePC" AutoSummary False SuppressNull SuppressNullModel 
+SourceInfo "queryType=flat
+" SetCurrent True ServerSource False Speed False 
+Presummarized False StreamExtractSize 0 
+
+OrgName 121 "[PCSource].[history].[type]" Origin Source Offset 0 Column "type" 
+Storage Text Scale 0 Size 22 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None ColumnInfo "name=type
+valuetype=string
+" 
+
+
+
+
+Signon 103 "BI Server Logon" UserId "Ecarmona" 
+PromptForPassword True EncryptedPW "*1*01576B7C5F245D2A75393E5B3565253242654E434C684259411D0E813C08A111E777" 
+"00C5A4E6760CF2" AutoLogon True SignOnNamespace "CUBEWISE" SignonType "Cognos" 
+
+Signon 127 "Erik02" UserId "Ecarmona" 
+FullDb "" PromptForPassword False EncryptedPW "*1*0163525733632F52237A327A5325225B40442C4E6A585C583044212499D4E0F12D6F" 
+"B03E612B689E5F" AutoLogon True SignOnNamespace "CUBEWISE" SignonType "Cognos" 
+
+
